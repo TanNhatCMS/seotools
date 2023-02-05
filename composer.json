@@ -1,5 +1,5 @@
 {
-  "name": "artesaos/seotools",
+  "name": "tannhatcms/seotools",
   "description": "SEO Tools for Laravel and Lumen",
   "keywords": [
     "laravel",
@@ -22,6 +22,9 @@
       "email": "luiz.vinicius73@gmail.com"
     }
   ],
+  "replace": {
+    "artesaos/seotools":"*"
+},
   "require": {
     "php": ">=7.1|^8.0",
     "ext-json": "*",
