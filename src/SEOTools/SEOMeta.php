@@ -153,7 +153,9 @@ class SEOMeta implements MetaTagsContract
 
         if ($title) {
             $html[] = Arr::get($this->config, 'add_notranslate_class', false) ? "<title class=\"notranslate\">$title</title>" : "<title>$title</title>";
+            $html[] = "<meta name=\"title\" content=\"{$title}\">";
         }
+
 
         if ($description) {
             $html[] = "<meta name=\"description\" content=\"{$description}\">";
